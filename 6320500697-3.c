@@ -4,19 +4,19 @@ int main()
     int n,i,k,j;
     scanf ("%d",&n);
     i=9;
-    k=9;
-    j=90;
+    k=18;
+    j=108;
     if(n<=10)
     {
         printf ("%d",i);
     }
     else if (n<=100)
     {
-        printf ("%d",i+k);
+        printf ("%d",k);
     }
     else
     {
-        printf ("%d",i+k+j);
+        printf ("%d",j);
     }
     return 0;
 
