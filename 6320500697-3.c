@@ -8,13 +8,16 @@ int main()
     ,575,676,777,878,979,181,282,383,484,585,686,787,888,989,191,292,393,494,595,696,797,898,999};
     for (i=0;n<=108;i++)
     {
-        if (n<=number[i]&&n!=number[i+1])
+        if (n<number[i]||n==number[i])
         {
-            printf("%d",i+1);
+            if(n>number[i+1])
+            {
+                i=i+1;
+            }
             break;
         }
     }
-
+    printf("%d",i);
     return 0;
 
 }
