@@ -16,8 +16,6 @@ int main()
                 if(n>=number[i])
                 {
                     i=i+1;
-
-
                 }
             }
 
@@ -27,7 +25,6 @@ int main()
         {
             i++;
         }
-
     }
     printf("%d",i+1);
     return 0;
