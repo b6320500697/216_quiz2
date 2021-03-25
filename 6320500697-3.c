@@ -8,11 +8,13 @@ int main()
     ,575,676,777,878,979,181,282,383,484,585,686,787,888,989,191,292,393,494,595,696,797,898,999};
     while(1)
     {
-        if (n<=number[i]&&n<number[i+1])
+        if (n<=number[i])
         {
-             printf ("%d",i);
-            printf ("\n%d",number[i]);
-            printf ("\n%d",number[i+1]);
+            if(n>=10)
+            {
+                i=i-1;
+            }
+
             break;
         }
         else
@@ -21,7 +23,7 @@ int main()
         }
 
     }
-    printf("\n%d",i);
+    printf("%d",i+1);
     return 0;
 
 }
