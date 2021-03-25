@@ -10,7 +10,8 @@ int main()
     {
         if(n>=number[i])
         {
-            printf("%d",i+1);
+            printf("%d %d",i,number[i]);
+            printf("\n%d",i+1);
             break;
         }
     }
