@@ -9,6 +9,7 @@ int main()
         if(number==pow(i,3))
         {
             printf ("Not Cube Free");
+            printf ("\n%d",i);
             break;
         }
     }
